@@ -26,7 +26,7 @@
     "t7": "vitest run ejercicio-7.spec.ts",
     "t8": "vitest run ejercicio-8.spec.ts",
     "t9": "vitest run ejercicio-9.spec.ts",
-    "t10": "vitest run ejercicio-10.spec.ts",
+    "tfunko": "vitest run FunkoManager.spec.ts",
     "tclase1": "vitest run ejercicioclase-1.spec.ts",
     "tclase2": "vitest run ejercicioclase-2.spec.ts",
     "tclase3": "vitest run ejercicioclase-3.spec.ts",
