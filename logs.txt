@@ -1,0 +1,10 @@
+[2025-03-24 10:15:32] INFO Usuario admin inició sesión.
+[2025-03-24 10:16:10] WARNING Uso elevado de memoria detectado.
+[2025-03-24 10:17:45] ERROR Fallo en la conexión con la base de datos.
+[2025-03-24 10:20:05] INFO Tarea de respaldo completada.
+[2025-03-24 10:25:30] WARNING Espacio en disco bajo.
+[2025-03-24 10:30:14] ERROR No se pudo acceder al archivo de configuración.
+[2025-03-24 10:35:22] INFO El usuario admin cerró sesión.
+[2025-03-24 10:35:22] ERROR El usuario admin NO PUEDE hacer SSH a la VM.
+[2025-03-24 10:40:00] ERROR Error al procesar la solicitud del cliente.
+[2025-03-24 10:45:55] INFO Servicio reiniciado correctamente.
