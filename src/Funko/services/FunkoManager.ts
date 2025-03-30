@@ -50,12 +50,16 @@ export class FunkoManager {
   }
 
   listFunkos(): Funko[] {
+    if (!fs.existsSync(this.userDir)) {
+      return []; // Evita error si no hay datos
+    }
     const files = fs.readdirSync(this.userDir);
     return files.map((file) => {
       const filePath = path.join(this.userDir, file);
       return JSON.parse(fs.readFileSync(filePath, "utf-8"));
     });
   }
+  
 
   getFunko(id: number): Funko | null {
     const filePath = this.getFunkoFilePath(id);
